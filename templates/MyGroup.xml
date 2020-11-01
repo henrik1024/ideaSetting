@@ -1,0 +1,11 @@
+<templateSet group="MyGroup">
+  <template name="&lt;abbreviation&gt;" value="/**&#10; * create by: gaoh&#10; * description: TODO&#10; * create time: $date$ $time$&#10; * $params$&#10; * @return $return$&#10; */" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="groovyScript(&quot;def result=''; def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i &lt; params.size(); i++) {result+=' * @'+'Param: ' + params[i] + ((i &lt; params.size() - 1) ? '\\n'+'\\b' : '')}; return result&quot;, methodParameters())" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
