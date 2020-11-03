@@ -1,6 +1,0 @@
-<keymap version="1" name="Default for Windows copy" parent="$default">
-  <action id="Generate">
-    <keyboard-shortcut first-keystroke="alt insert" />
-    <keyboard-shortcut first-keystroke="alt e" />
-  </action>
-</keymap>
