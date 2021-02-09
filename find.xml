@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="File 'D:\IdeaProjects\202012\lems\lems-cam\lems-cam-web\src\main\java\org\neris\lems\cam\web\CasePrsnAprsController.java [lems-cam-web]'" />
+    <option name="defaultScopeName" value="File 'D:\IdeaProjects\202012\lems\lems-cam\lems-cam-web\src\main\java\org\neris\lems\cam\web\CasePrsnAprsController.java [lems-cam-web]'" />
+    <option name="SEARCH_SCOPE" value="File 'D:\IdeaProjects\202012\lems\lems-cam\lems-cam-web\src\main\java\org\neris\lems\cam\web\CasePrsnAprsController.java [lems-cam-web]'" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.properties</mask>
